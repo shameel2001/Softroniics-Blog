@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="styles.css">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Softroniics Blog</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        /* Add a gray background color with some padding */
+        
+        body {
+            font-family: Arial;
+            padding: 0px;
+            margin: 0px;
+            background: #f1f1f1;
+        }
+        /* Header/Softroniics Blog Title */
+        
+        .header {
+            font-size: 70px;
+            text-align: center;
+            background: white;
+        }
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+        
+        #blog1 {
+            float: right;
+            margin-left: 15px;
+        }
+        
+        .button1 {
+            background: white;
+            color: black;
+            border: 2px solid white;
+        }
+        
+        .button1:hover {
+            background: black;
+            color: white;
+        }
+        /* Right column */
+        
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            padding-left: 20px;
+        }
+        /* Add a card effect for articles */
+        
+        .card {
+            background: #ff9900fb;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: block;
+            /* Let the element behave like a block element	 */
+            clear: both;
+        }
+        /* Footer */
+        
+        .footer {
+            padding: 10px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+            font-size: large;
+        }
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        /* @media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+} */
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <img src="assets/logo/logo1.png" alt="" width="125" height="125">
+            <h4> Softroniics </h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+
+                <img src="assets/images/ppl (1).png" alt="" id="blog1">
+
+                <p style="font-size: 63px; color: white;">We offer high-quality training and development solutions for individuals and commercial enterprises.</p>
+
+                <p style="font-size: 15px;">Softroniics offers best-in-class training and development solutions through a dedicated team of trainers across a range of domains.</p>
+
+
+                <span>
+          <button type="button" class="button1">View Internship </button>  Call: +91 9037-29-1113
+        </span>
+            </div>
+
+            <div class="card">
+                <h1>Why choose us?</h1>
+                <p style="font-size: 25px;">Softroniics offers a unique blend of domain expertise and industry experience through live projects to our clients. We stand out as a training and development solution provider through our focus on learning with live experience in industry
+                    projects. Our specialties include;</p>
+
+                <ul>
+                    <li>Well experienced trainers</li>
+                    <li>High quality syllabus</li>
+                    <li>Live sessions and doubt clearing sessions</li>
+                    <li>Hands on training</li>
+                    <li>Assured placements</li>
+                    <li>Study materials</li>
+                </ul>
+                <a href="https://softroniics.in/about-us/" style="text-decoration: none; color :white"> Know more...</a>
+            </div>
+        </div>
+
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>
+                    <img src="assets/logo/fltr-icn.png" alt="Flutter logo" style="display:block; margin:auto; width:100px;">
+                    <center>Flutter</center>
+
+                </h2>
+
+                <p>Flutter is an open-source mobile UI framework developed by Google. Using a single codebase, Flutter allows you to develop high performance desktop, mobile and web applications.</p>
+                <a href="https://softroniics.in/internship/flutter/" style="text-decoration: none; color :white"> Know more...</a>
+
+            </div>
+
+            <div class="card">
+                <h2>
+                    <img src="assets/logo/pythdj.png" alt="Python Django logo" style="display:block; margin:auto; width:100px;">
+                    <center>Python Django</center>
+                </h2>
+                <p>Python is a high-level, object-oriented, and interpreted programming language popular worldwide for its convenient machine learning and artificial intelligence.</p>
+                <a href="https://softroniics.in/internship/python-django/" style="text-decoration: none; color :white"> Know more...</a>
+            </div>
+
+            <div class="card">
+                <h2>
+                    <img src="assets/logo/Web-1920-–-22.png" alt="MERN Fullstack logo" style="display:block; margin:auto; width:100px;">
+                    <center>MERN Fullstack</center>
+                </h2>
+                <p>MERN stack is a popular full-stack web development framework for building dynamic and powerful web applications. MERN Full stack is used for developing apps only by using JavaScript.</p>
+                <a href="https://softroniics.in/internship/mern-fullstack/" style="text-decoration: none; color :white"> Know more...</a>
+            </div>
+
+            <div class="card">
+                <h2>
+                    <img src="assets/logo/Data-Science.png" alt="Data Science logo" style="display:block; margin:auto; width:100px;">
+                    <center>Data Science</center>
+                </h2>
+                <p>Data science, in simple words could be stated as the study of data using modern techniques and tools.</p>
+                <a href="https://softroniics.in/internship/data-science/" style="text-decoration: none; color :white"> Know more...</a>
+            </div>
+
+            <div class="card">
+                <h2>
+                    <img src="assets/logo/263a75529a1752b75d64f9f21fd07c92-3-2 (1).webp" alt="Data Science logo" style="display:block; margin:auto; width:100px;">
+                    <center>Front End Development</center>
+                </h2>
+                <p>Front-end development deals with the development and implementation of the user-facing interface of a website or application.</p>
+                <a href="https://softroniics.in/internship/front-end-development/" style="text-decoration: none; color :white"> Know more...</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="video">
+        <iframe width="1060" height="815" src="https://www.youtube.com/embed/r67Ei9MGbts" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="footer">
+        <h4>Need Help?<br> Want to know more about our courses?<br> Talk to our Academic Advisors <br> Call: <a href=""> +91 9037-29-1113</a> <br> Mail id: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRzDshGDGwZbXlRVVdTZSncgZNZckwRbMnkfmlKdlqDqgBCzMLPBbwRMPQHLWbJzBDFFwTdD">info@softroniics.com</a></h4>
+    </div>
+
+</body>
+
+</html>
